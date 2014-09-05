@@ -1,0 +1,54 @@
+.post-index {
+	margin-bottom: 2em;
+
+	li {
+		margin-bottom: 0.5em;
+	}
+}
+
+.post-content {
+	@include media($medium-screen) {
+		max-width: $medium-screen;
+		margin: 0 auto;
+	}
+
+	p {
+		font-family: $serif;
+	}
+}
+
+.post-header {
+	padding: 1em 0;
+	text-align: center;
+
+	* {
+		display: block;
+	}
+
+	.meta-data {
+		margin: 1em 0;
+	}
+}
+
+.archive-btn {
+	background-color: $transparent;
+	border: 2px solid #fff;
+	padding: 1em;
+	text-align: center;
+	transition: 0.2s all linear;
+	margin: 1em auto;
+	display: block;
+
+	&:hover {
+		color: #fff;
+		background: rgba(255,255,255,0.3);
+	}
+
+	@include media($medium-screen) {
+		display: inline-block;
+	}
+}
+
+.post-footer {
+	text-align: center;
+}

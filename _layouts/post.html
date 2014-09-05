@@ -1,0 +1,16 @@
+---
+layout: default
+class: post
+---
+<section class="single-post">
+	<div class="post-content">
+	  <header class="post-header">
+	    <h2>{{ page.title }}</h2>
+	    <span class="meta-data">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</span>
+	  </header>
+	  {{ content }}
+	  <footer class="post-footer">
+		  <a class="archive-btn" href="/archive/">View More Posts</a>
+	  </footer>
+  </div>
+</section>

@@ -1,0 +1,77 @@
+---
+layout: default
+class: info
+---
+<div class="biography">
+  <picture class="biography-masthead">
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source srcset="{{ "/images/info-L.jpg" | prepend: site.baseurl }}" media="(min-width: 1000px)">
+    <source srcset="{{ "/images/info-M.jpg" | prepend: site.baseurl }}" media="(min-width: 640px)">
+    <source srcset="{{ "/images/info-S.jpg" | prepend: site.baseurl }}">
+    <!--[if IE 9]></video><![endif]-->
+    <img srcset="{{ "/images/info-L.jpg" | prepend: site.baseurl }}" alt="Seth Chrisman’s bio photograph">
+    <span class="photo-credit">Robert Morris // Johnson Pit #30</span>
+  </picture>
+  <div class="biography-content">
+    <div class="container">
+      <p>Seth Chrisman is a musician and multimedia artist based in the Hudson Valley, New York. His work explores texture, repetition, and scale, while being heavily rooted in concepts of place. Experimental techniques, field recordings, found sounds, and radio static are woven together to create undulating and centrifugal sonic environments.</p>
+    </div>
+  </div>
+</div>
+
+<section class="discography">
+  <div class="container">
+    <div class="project-category">
+      <h3>Widesky</h3>
+      <ul>
+        {% for release in site.data.releases %}
+        {% if release.name == "Widesky" %}
+        <li><a href="{{ release.url }}">{{ release.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="project-category">
+      <h3>Saguache</h3>
+      <ul>
+        {% for release in site.data.releases %}
+        {% if release.name == "Saguache" %}
+        <li><a href="{{ release.url }}">{{ release.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="project-category">
+      <h3>Seth Chrisman</h3>
+      <ul>
+        {% for release in site.data.releases %}
+        {% if release.name == "Seth Chrisman" %}
+        <li><a href="{{ release.url }}">{{ release.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="mastering-description">
+      <h3>Mastering</h3>
+
+      <p>I provide mastering services for a variety of media, tailoring each project to its end format while achieving optimal volume, enhancing spectral content and spatialization, and preserving dynamic range.</p>
+
+      <p>For mastering inquiries, please <a href="mailto:{{ site.email }}">send an email</a> providing the following info: <em>end format, total running time, budget, timeframe</em>.</p>
+
+      <p>My availability and rates are dependent upon the nature of each project.</p>
+    </div>
+    <div class="mastering-index">
+      <span><strong>Selected mastering credits:</strong></span>
+      <ul>
+        {% for master in site.data.mastering %}
+        <li><a href="{{ master.url }}">{{ master.title }} ({{ master.format }})</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

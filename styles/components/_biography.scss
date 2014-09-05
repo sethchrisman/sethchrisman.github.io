@@ -1,0 +1,31 @@
+.biography-masthead {
+  position: relative;
+}
+
+.biography-content {
+  padding: 2em 0;
+  background: #fff;
+  color: #242424;
+
+  p {
+    font-family: $serif;
+    margin-bottom: 0;
+  }
+
+  @include media($medium-screen) {
+  padding: 4em 0;
+
+    p {
+      font-size: 1.375em;
+      line-height: 1.75;
+    }
+
+  }
+}
+
+.photo-credit {
+  @include position(absolute, null 1em 2em null);
+  font-family: $serif;
+  font-size: 80%;
+  font-style: italic;
+}

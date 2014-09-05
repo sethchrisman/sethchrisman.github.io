@@ -1,0 +1,38 @@
+.site-header {
+	padding: 2em 1em;
+  background-color: $transparent;
+
+  @include media($medium-screen) {
+    padding: 4em 1em;
+  }
+
+  @include media($large-screen) {
+    padding: 6em 1em;
+  }
+}
+
+.site-title {
+  display: block;
+  font-size: 2em;
+
+  @include media($medium-screen) {
+    font-size: 3em;
+  }
+
+  @include media($large-screen) {
+    font-size: 4em;
+    letter-spacing: -1px;
+  }
+}
+
+.site-nav {
+  display: block;
+  font-family: $serif;
+  font-style: italic;
+  font-size: 1em;
+  margin-top: 1em;
+
+  @include media($medium-screen) {
+    font-size: 1.25em;
+  }
+}

@@ -1,0 +1,35 @@
+// Page Backgrounds
+
+.archive,
+.post,
+.home 	 		 { background: $bg-sunset; }
+.info    		 { background: $bg-seattle; }
+
+section {
+	padding: 2em 0;
+
+	@include media($medium-screen) {
+		padding: 6em 0;
+	}
+}
+
+picture {
+	line-height: 0; // Fixes unwanted gap after picture element.
+}
+
+.container,
+.post-content {
+	@include outer-container;
+	@include pad(1em);
+}
+
+.post-index,
+.show-index {
+	@include media($medium-screen) {
+		@include span-columns(6);
+	}
+
+	h3 {
+		margin-bottom: 1em;
+	}
+}

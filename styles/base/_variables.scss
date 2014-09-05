@@ -1,0 +1,56 @@
+// Typography
+$sans-serif: "wayfinding-sans-extended", $helvetica;
+$serif: "adobe-caslon-pro", $georgia;
+$base-font-family: $sans-serif;
+$header-font-family: $base-font-family;
+
+// Sizes
+$base-font-size: 1em;
+$base-line-height: $base-font-size * 1.5;
+$unitless-line-height: $base-line-height / ($base-line-height * 0 + 1); // Strip units from line-height: https://developer.mozilla.org/en-US/docs/Web/CSS/line-height#Prefer_unitless_numbers_for_line-height_values
+$header-line-height: $base-font-size * 1.25;
+$base-border-radius: em(3);
+
+// Colors
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #DDD;
+
+// Background Color
+$base-background-color: #fff;
+$transparent: rgba(255,255,255,0.1);
+
+//Background Gradients
+$bg-sunset: linear-gradient(rgb(107,175,210) 0%, rgb(164,200,220) 38%, rgb(214,203,202) 58%, rgb(234,188,150) 79%, rgb(219,136,118) 100%);
+$bg-seattle: linear-gradient(rgb(7,40,81) 0%, rgb(8,58,107) 15%, rgb(33,123,147) 50%, rgb(50,160,161) 69%, rgb(142,178,166) 100%);
+// $bg-berry: linear-gradient(#c5d4d7 0%, #d6b98d 34%, #c99262 57%, #8c5962 80%, #43577e 100%);
+// $bg-sutro: linear-gradient(#325571 0%, #8e9fa4 38%, #decab2 66%, #f2d580 78%, #ffa642 100%);
+
+// Font Colors
+$base-font-color: #fff;
+$base-accent-color: $base-font-color;
+
+// Link Colors
+$base-link-color: $base-background-color;
+$hover-link-color: darken($base-background-color, 10);
+$base-button-color: $base-link-color;
+$hover-button-color: $hover-link-color;
+
+// Border color
+$base-border-color: $light-gray;
+
+// Flash Colors
+// $alert-color: $light-yellow;
+// $error-color: $light-red;
+// $notice-color: $light-yellow;
+// $success-color: $light-green;
+
+// Forms
+// $form-border-color: $base-border-color;
+// $form-border-color-hover: darken($base-border-color, 10);
+// $form-border-color-focus: $base-accent-color;
+// $form-border-radius: $base-border-radius;
+// $form-box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
+// $form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
+// $form-font-size: $base-font-size;
+// $form-font-family: $base-font-family;

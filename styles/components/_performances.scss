@@ -1,0 +1,19 @@
+.performances {
+	text-align: center;
+	background-color: $transparent;
+
+	span {
+		display: block;
+		margin-top: 1em;
+	}
+}
+
+.performance-list {
+	span {
+		display: block;
+	}
+
+	li {
+		margin-bottom: 1em;
+	}
+}

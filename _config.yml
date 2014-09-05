@@ -1,0 +1,33 @@
+title: Seth Chrisman
+description: "Seth Chrisman is a musician and multimedia artist based in the Hudson Valley, New York."
+
+email: sethchrisman@gmail.com
+twitter: http://twitter.com/radial_drift
+instagram: http://instagram.com/sethchrisman
+soundcloud: http://soundcloud.com/sethchrisman
+
+exclude: [gulpfile.js, package.json, node_modules, README.md, scripts, styles]
+
+markdown: kramdown
+permalink: pretty
+
+prose:
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "date"
+        field:
+          element: "text"
+          placeholder: "YYYY/MM/DD"
+          label: "Date"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "archive"
