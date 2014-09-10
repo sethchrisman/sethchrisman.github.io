@@ -6,7 +6,7 @@ twitter: http://twitter.com/radial_drift
 instagram: http://instagram.com/sethchrisman
 soundcloud: http://soundcloud.com/sethchrisman
 
-exclude: [gulpfile.js, package.json, node_modules, README.md, scripts, styles]
+exclude: [CNAME, gulpfile.js, package.json, node_modules, README.md, scripts, styles]
 
 markdown: kramdown
 permalink: pretty
