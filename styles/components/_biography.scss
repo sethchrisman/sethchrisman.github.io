@@ -1,5 +1,7 @@
 .biography-masthead {
   position: relative;
+
+  img { width: 100%; }
 }
 
 .biography-content {
@@ -19,7 +21,6 @@
       font-size: 1.375em;
       line-height: 1.75;
     }
-
   }
 }
 
