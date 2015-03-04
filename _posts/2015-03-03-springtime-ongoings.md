@@ -17,6 +17,6 @@ My friend [Nathan McLaughlin](http://www.nathanmclaughlin.info/) and I are worki
 
 On April 25th, I will be participating in a 24 Hour Drone Fest at [Basilica Hudson](http://basilicahudson.com/). This is an exciting event in a gorgeous space with some great company, and I am extremely thrilled to be a part of it. 
 
-Lastly, I had the esteemed priviledge of mastering _Fuck Everybody, You Can Do Anything_, the forthcoming album from the Andrew Weathers Ensemble. It's a doozy, and will be available on LP and digital formats this summer.
+Lastly, I had the esteemed privilege of mastering _Fuck Everybody, You Can Do Anything_, the forthcoming album from the Andrew Weathers Ensemble. It's a doozy, and will be available on LP and digital formats this summer.
 
 As always, more soon and thanks for listening.
