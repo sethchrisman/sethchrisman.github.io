@@ -20,3 +20,6 @@ On April 25th, I will be participating in a 24 Hour Drone Fest at [Basilica Huds
 Lastly, I had the esteemed privilege of mastering _Fuck Everybody, You Can Do Anything_, the forthcoming album from the Andrew Weathers Ensemble. It's a doozy, and will be available on LP and digital formats this summer.
 
 As always, more soon and thanks for listening.
+
+P.S.
+Here's an [8-minute hydrophone recording](https://soundcloud.com/sethchrisman/8-in-the-rio-grande-1-11pm) of the Rio Grande River that I did in January.
