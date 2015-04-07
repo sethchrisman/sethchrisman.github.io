@@ -2,9 +2,13 @@
 	text-align: center;
 	background-color: $transparent;
 
+	.performance-list {
+		margin-top: 1em;
+	}
+
 	span {
 		display: block;
-		margin-top: 1em;
+		// margin-top: 1em;
 	}
 }
 

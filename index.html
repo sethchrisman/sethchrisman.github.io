@@ -7,7 +7,19 @@ published: true
 <section class="performances">
   <div class="container">
     <h2>Upcoming Performances</h2>
-    <span>No dates currently scheduled.<div>
+
+    <ul class="performance-list">
+    {% for performance in site.data.performances %}
+    {% if performance.featured == true %}
+      <li>
+        <span class="performance-date">{{ performance.date }}</span>
+        <span class="performance-location">{{ performance.venue }} — {{ performance.location }}</span>
+        <span class="performance-lineup">{{ performance.lineup }}</span>
+      </li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
 </section>
 
 <section class="featured-post">

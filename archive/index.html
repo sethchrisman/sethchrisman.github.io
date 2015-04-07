@@ -18,11 +18,13 @@ class: archive
       <h3>Past Performances</h3>
       <ul class="performance-list">
         {% for performance in site.data.performances %}
+        {% if performance.featured != true %}
         <li>
           <span class="performance-date">{{ performance.date }}</span>
           <span class="performance-location">{{ performance.venue }} — {{ performance.location }}</span>
           <span class="performance-lineup">{{ performance.lineup }}</span>
         </li>
+        {% endif %}
         {% endfor %}
       </ul>
     </div>
