@@ -1,13 +1,8 @@
-- date: 05.28.15
-  venue: The Spotty Dogg
-  location: "Hudson, NY"
-  lineup: "Chrisman/McLaughlin, Jonah Parzen-Johnson, Destroyer of Worlds"
-  featured: yes
-
 - date: 04.25.15
   venue: Basilica Hudson
   location: "Hudson, NY"
   lineup: "Seth Chrisman + Nathan McLaughlin, many more"
+  featured: yes
 
 - date: 04.20.14
   venue: Machine House Brewery
