@@ -25,7 +25,7 @@ gulp.task('browser-sync', function() {
 gulp.task('sass', function () {
   gulp.src('styles/main.scss')
     .pipe(sass({style: 'compressed'}))
-    .pipe(prefix('last 2 version', 'ie 9'))
+    .pipe(prefix('last 2 versions', 'ie 9'))
     .pipe(gulp.dest('assets/css'))
     .pipe(reload({stream:true}));
 });
