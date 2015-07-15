@@ -1,9 +1,3 @@
-- date: 07.03.15
-  venue: House Show
-  location: "Hudson, NY"
-  lineup: "Seth Chrisman + Nathan McLaughlin, Paper Balls"
-  featured: yes
-  
 - date: 08.12.15
   venue: Upstate Artists Guild
   location: "Albany, NY"
@@ -51,6 +45,11 @@
   location: "New Haven, CT"
   lineup: "Seth Chrisman + Nathan McLaughlin"
   featured: yes
+  
+- date: 07.03.15
+  venue: House Show
+  location: "Hudson, NY"
+  lineup: "Seth Chrisman + Nathan McLaughlin, Paper Balls"
   
 - date: 05.28.15
   venue: The Spotty Dog
