@@ -1,25 +1,7 @@
-- date: 08.03.15
-  venue: House Show
-  location: "Hudson, NY"
-  lineup: "Seth Chrisman + Nathan McLaughlin, Kristín Anna Valtýsdóttir"
-  featured: yes
-
-- date: 08.12.15
-  venue: Upstate Artists Guild
-  location: "Albany, NY"
-  lineup: "Seth Chrisman + Nathan McLaughlin, Kevin Greenspon, CASE"
-  featured: yes
-  
-- date: 08.23.15
-  venue: The Spotty Dog
-  location: "Hudson, NY"
-  lineup: "Seth Chrisman, Tilth, Kevin Greenspon"
-  featured: yes
-  
 - date: 09.19.15
   venue: Groundswell @ Olana State Historic Site
-  location: "Greenport, NY"
-  lineup: "John Cage Trust with Seth Chrisman, many others"
+  location: "Hudson, NY"
+  lineup: "Performing John Cage's Branches"
   featured: yes
   
 - date: 10.06.15
@@ -28,29 +10,20 @@
   lineup: "Seth Chrisman + Nathan McLaughlin"
   featured: yes
   
-- date: 10.07.15
-  venue: TBD
-  location: "Brattleboro, VT"
-  lineup: "Seth Chrisman + Nathan McLaughlin"
-  featured: yes
+- date: 08.23.15
+  venue: The Spotty Dog
+  location: "Hudson, NY"
+  lineup: "Seth Chrisman, Tilth, Kevin Greenspon"
   
-- date: 10.08.15
-  venue: TBD
-  location: "Western MA"
-  lineup: "Seth Chrisman + Nathan McLaughlin"
-  featured: yes
+- date: 08.12.15
+  venue: Upstate Artists Guild
+  location: "Albany, NY"
+  lineup: "Seth Chrisman + Nathan McLaughlin, Kevin Greenspon, CASE"
   
-- date: 10.09.15
-  venue: TBD
-  location: "Providence, RI"
-  lineup: "Seth Chrisman + Nathan McLaughlin"
-  featured: yes
-  
-- date: 10.10.15
-  venue: TBD
-  location: "New Haven, CT"
-  lineup: "Seth Chrisman + Nathan McLaughlin"
-  featured: yes
+- date: 08.03.15
+  venue: House Show
+  location: "Hudson, NY"
+  lineup: "Seth Chrisman + Nathan McLaughlin, Kristín Anna Valtýsdóttir"
   
 - date: 07.03.15
   venue: House Show
